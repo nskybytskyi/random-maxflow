@@ -33,7 +33,7 @@ int main() {
                 if (u == 0 || v == n - 1)
                     st_edges += cnt[u][v];
                 else
-                    uv_edges ++ cnt[u][v]; 
+                    uv_edges += cnt[u][v]; 
             }
         cout << trials << " " << flow * 1. / trials << \
             " " << st_edges * 1. / trials << " " << uv_edges * 1. / trials <<  "\n";
